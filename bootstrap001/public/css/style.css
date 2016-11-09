@@ -1,0 +1,210 @@
+.wrap {
+  background-image: url("/img/background.png"); }
+
+@font-face {
+  font-family: Bebas;
+  src: url("../fonts/BebasNeue/BebasNeue.otf"); }
+
+.header {
+  padding: 20px 0px; }
+
+.has-feedback label.sr-only ~ .form-control-feedback {
+  color: #e3e3e3; }
+
+.form-group {
+  margin-top: 8px;
+  margin-bottom: 0px; }
+
+.price {
+  color: #a1a1a1;
+  font-weight: bold;
+  font-size: 28px; }
+  .price img {
+    height: 40px; }
+  .price span {
+    font-family: Bebas;
+    padding-top: 8px;
+    position: absolute; }
+    .price span:hover {
+      color: #3cc3b5; }
+
+.navbar {
+  margin-bottom: 0;
+  z-index: 10; }
+
+.navbar-default {
+  background-color: #4ccfc1; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight: bold; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4ccfc1;
+  background-color: transparent; }
+
+.navbar-nav li a:hover {
+  color: #4ccfc1; }
+
+.hr > li > a:after {
+  content: "";
+  background: #f4f4f4;
+  position: absolute;
+  width: 2px;
+  height: 18px;
+  margin: 0px 14px;
+  z-index: 11; }
+
+.hr > li.end > a:after {
+  content: "";
+  background-color: #4ccfc1;
+  position: absolute;
+  width: 2px;
+  height: 18px;
+  margin: 0px 14px;
+  z-index: 11; }
+
+.hr > li:first-child {
+  visibility: hidden;
+  background: transparent; }
+
+.hr li:hover {
+  background-color: #ffffff; }
+
+.slick-slide {
+  border-right: #e4e4e4 solid  1px;
+  padding-left: 50px;
+  font-family: Bebas; }
+  .slick-slide img {
+    height: 125px;
+    float: left; }
+  .slick-slide span {
+    line-height: 25px;
+    width: 50px;
+    position: absolute;
+    color: #afafaf;
+    padding: 20px;
+    font-size: 27px; }
+
+.fix-width {
+  padding: 65px 0px 30px 5%;
+  border: none; }
+  .fix-width img {
+    width: 325px;
+    height: 275px; }
+  .fix-width .slide-fix-para p {
+    color: #ffffff; }
+    .fix-width .slide-fix-para p:first-child {
+      font-size: 61px;
+      line-height: 61px; }
+    .fix-width .slide-fix-para p:last-child {
+      font-family: Opensans; }
+  .fix-width .slide-fix-para button {
+    height: 40px;
+    width: 135px;
+    font-size: 18px;
+    background: transparent;
+    border: #ffffff solid 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px; }
+
+.slick-custom {
+  padding: 20px 60px; }
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 0.5; }
+
+.slick-dots li button:before {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 10px;
+  left: 150px; }
+
+.caption {
+  text-align: center;
+  font-size: 19px;
+  border-bottom: #3cc395 solid 5px; }
+
+.caption p {
+  color: #adadad;
+  font-size: 27px;
+  line-height: 24px;
+  font-family: Bebas; }
+
+.btn-default {
+  color: #ffffff;
+  background-color: #3cc395;
+  font-size: 19px;
+  padding: 5px 20px;
+  font-family: Bebas; }
+
+.feature {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 13px 0px 13px 0px; }
+
+.feature-product {
+  padding: 45px 0px; }
+
+.thumbnail {
+  width: 255px;
+  padding: 0;
+  border-radius: 0px;
+  margin: 23px auto; }
+  .thumbnail img {
+    height: 125px;
+    margin-top: 20px; }
+
+@media (max-width: 768px) {
+  .slick-dots li button:before {
+    left: -170px; }
+  .nav li {
+    border-bottom: #fff solid 1px; }
+  .hr > li > a:after {
+    content: "";
+    display: none;
+    z-index: 11; }
+  .hr > li.end > a:after {
+    content: "";
+    background-color: #4ccfc1;
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    margin: 0px 14px;
+    z-index: 11; }
+  .hr > li:first-child {
+    visibility: hidden;
+    background: transparent; }
+  .slide-fix-img {
+    padding: 20px; }
+  .slide-fix-para {
+    padding: 5px;
+    font-family: Bebas;
+    /*padding-left:50px;*/ } }
+
+.footer {
+  padding: 40px;
+  background-color: #3cc3b5; }
+
+.add {
+  margin-left: 50px; }
+
+.col-md-2 {
+  margin: 0px 20px; }
+  .col-md-2 p:first-child a {
+    font-size: 20px;
+    font-weight: bold; }
+  .col-md-2 p a {
+    color: #ffffff; }
+
+.copyright {
+  height: 46px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2da89b;
+  padding: 13px 0px; }
+  .copyright p {
+    padding: 0 auto; }
